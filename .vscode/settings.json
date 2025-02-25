@@ -1,0 +1,25 @@
+{
+  "editor.detectIndentation": false,
+  "[sass]": {
+    "editor.defaultFormatter": "syler.sass-indented"
+  },
+  "[nginx]": {
+    "editor.defaultFormatter": "ahmadalli.vscode-nginx-conf",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.organizeExports": "never"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "files.eol": "\n",
+  "files.associations": {
+    "*.json": "jsonc",
+    "*.conf": "nginx"
+  }
+}
